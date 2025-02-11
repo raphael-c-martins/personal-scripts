@@ -27,8 +27,8 @@ def convert_folder_webp_to_png(input_folder, output_folder):
             convert_webp_to_png(webp_path, png_path)
 
 # Caminhos das pastas
-input_folder = r"C:\caminho\para\pasta\com\webp"
-output_folder = r"C:\caminho\para\pasta\com\png"
+input_folder = r"C:\caminho\para\pasta\com\webp" # Pasta com arquivos WEBP
+output_folder = r"C:\caminho\para\pasta\com\png" # Pasta de saída para os arquivos convertidos PNG
 
 # Converte todos os arquivos WEBP da pasta
 convert_folder_webp_to_png(input_folder, output_folder)
