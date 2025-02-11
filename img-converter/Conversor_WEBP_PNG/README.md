@@ -27,6 +27,11 @@ Antes de executar o script, certifique-se de ter o **Python** instalado junto co
 pip install pillow
 ```
 
+## ⚠️ **Observação Importante**
+
+Para que o script funcione corretamente, **é essencial que toda a pasta do projeto seja aberta no seu interpretador de código** (como VSCode, PyCharm, ou outro de sua preferência). Ou seja, ao invés de abrir o script diretamente, abra a pasta **Conversor_AVIF_PNG** no seu ambiente de desenvolvimento. Depois, execute o script `converter_avif_para_png.py` a partir do interpretador de código para garantir que os caminhos e configurações do projeto sejam corretamente reconhecidos.
+
+
 ## 🔧 Como Usar
 
 ### 1️⃣ Converter um arquivo WEBP específico
@@ -51,9 +56,6 @@ convert_folder_webp_to_png(input_folder, output_folder)
 
 Execute o script e ele converterá automaticamente todas as imagens WEBP para PNG.
 
-## ⚠️ **Observação Importante**
-
-Para que o script funcione corretamente, **é essencial que toda a pasta do projeto seja aberta no seu interpretador de código** (como VSCode, PyCharm, ou outro de sua preferência). Ou seja, ao invés de abrir o script diretamente, abra a pasta **Conversor_AVIF_PNG** no seu ambiente de desenvolvimento. Depois, execute o script `converter_avif_para_png.py` a partir do interpretador de código para garantir que os caminhos e configurações do projeto sejam corretamente reconhecidos.
 
 ### 🚨 Observação extra
 
