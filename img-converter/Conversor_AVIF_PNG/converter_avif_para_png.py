@@ -33,9 +33,9 @@ def convert_folder_avif_to_png(input_folder, output_folder):
             # Converte o arquivo AVIF para PNG
             convert_avif_to_png(avif_path, png_path)
 
-# Caminhos das pastas
-input_folder = r"C:\Users\X\Desktop\ENTRADA" # Pasta com arquivos AVIF
-output_folder = r"C:\Users\X\Desktop\SAIDA" # Pasta de saída para os arquivos convertidos PNG
+# Caminhos das pastas 
+input_folder = r"C:\caminho\para\pasta\com\avif" # Pasta com arquivos AVIF
+output_folder = r"C:\caminho\para\pasta\com\png" # Pasta de saída para os arquivos convertidos PNG
 
 # Converte todos os arquivos AVIF da pasta
 convert_folder_avif_to_png(input_folder, output_folder)
