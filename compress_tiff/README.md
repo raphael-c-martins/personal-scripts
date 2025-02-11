@@ -38,6 +38,9 @@ python compress_tiff.py
 - **Redimensionamento**: Modifique `max_width` para ajustar o tamanho máximo da largura das imagens.
 - **Compressão**: Ajuste o método alterando `compression="tiff_lzw"` para outras opções suportadas.
 
+## 📌 Observação sobre a Extensão
+O script menciona arquivos **.TIFF**, mas ele também funciona normalmente com arquivos **.TIF**. Caso o arquivo comprimido tenha a extensão **.TIFF**, **renomeá-lo para .TIF não afetará sua funcionalidade**. Ambos os formatos são equivalentes e suportados pelo script.
+
 ## 📜 Licença
 
 Este projeto é de código aberto e pode ser usado livremente.
@@ -45,3 +48,4 @@ Este projeto é de código aberto e pode ser usado livremente.
 ---
 
 💡 **Dica:** Caso seu arquivo TIFF tenha muitas páginas e algumas fiquem corrompidas, experimente dividi-lo em partes menores antes da compressão!
+
